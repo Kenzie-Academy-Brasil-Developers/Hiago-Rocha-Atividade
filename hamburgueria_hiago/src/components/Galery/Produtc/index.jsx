@@ -1,10 +1,12 @@
+import style from "./style.css";
+
 function Produtc({ Item, cart, setCart }) {
   function add() {
     let NewArr = [...cart, [Item]];
     setCart(NewArr);
   }
   return (
-    <div>
+    <div className="card">
       <img src={Item.img} alt={Item.name} />
       <h2>{Item.name}</h2>
       <span>{Item.category}</span>

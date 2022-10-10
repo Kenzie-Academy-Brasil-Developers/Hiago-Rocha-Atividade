@@ -1,2 +1,30 @@
-.nav {
+.navegation {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  align-items: center;
+}
+.navegation > img {
+  margin: 10px;
+  width: 150px;
+  height: 25px;
+}
+form {
+  display: flex;
+}
+form > input {
+  margin: 5px;
+  width: 270px;
+  height: 50px;
+  border: solid #828282;
+  border-radius: 8px;
+}
+form > button {
+  position: absolute;
+  margin-top: 17px;
+  margin-left: 200px;
+  background-color: #27ae60;
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
 }

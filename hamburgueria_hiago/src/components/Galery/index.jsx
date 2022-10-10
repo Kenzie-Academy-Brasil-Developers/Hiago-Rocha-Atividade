@@ -1,4 +1,5 @@
 import Produtc from "./Produtc";
+import style from "./style.css";
 
 function Container({
   FilteredMenu,
@@ -14,7 +15,7 @@ function Container({
     SetFilteredMenu(Menu);
   }
   return (
-    <div>
+    <div className="Main">
       {value && (
         <div>
           <p>

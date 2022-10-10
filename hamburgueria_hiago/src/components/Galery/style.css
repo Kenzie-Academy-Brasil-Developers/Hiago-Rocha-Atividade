@@ -1,0 +1,15 @@
+.Main {
+  overflow-x: scroll;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 100%;
+}
+.card {
+  border-radius: 8px;
+  transition: ease-in-out 0.1s;
+  width: 80%;
+  margin-bottom: 30px;
+  margin: 5%;
+}

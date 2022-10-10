@@ -11,7 +11,7 @@ function Header({ SetFilteredMenu, Menu, value, SetValue }) {
   }
 
   return (
-    <div className="nav">
+    <div className="navegation">
       <img src={imagem} alt="Logo Haburgueria" />
       <form>
         <input onChange={(e) => SetValue(e.target.value)} type="text" />

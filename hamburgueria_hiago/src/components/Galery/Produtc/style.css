@@ -1,0 +1,11 @@
+.card {
+  border-radius: 8px;
+  transition: ease-in-out 0.1s;
+  width: 80%;
+  margin-bottom: 30px;
+  margin: 5%;
+}
+.card > img {
+  width: 150px;
+  height: 150px;
+}
